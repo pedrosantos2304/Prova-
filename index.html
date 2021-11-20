@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poupança</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <main>
+    <div class="section">
+
+      <div class="title"> Calculo de Poupança </div>
+
+      <div class="input">
+        <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+      </div>
+
+      <div class="input">
+        <input placeholder="Quanto deseja investir? Ex: 700" type="number" id='dinheiro' required="required">
+      </div>
+
+      <div class="input">
+        <input placeholder="Quanto tempo investido? Ex: 12" type="number" id='tempo' required="required">
+      </div>
+      <div class="input">
+        <input placeholder="Qual taxa? Ex: 1" type="number" id='taxa' required="required">
+      </div>
+
+      <button id='calcular'>Calcular</button>
+
+      <div class="result" id='resultado'></div>
+
+      <footer> Calculos 100% precisos em base nos valores colocados por você mesmo!. </footer>
+
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
